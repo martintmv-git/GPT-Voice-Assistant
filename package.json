@@ -1,0 +1,16 @@
+{
+  "name": "openai-gpt-voice-assistant",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "audic": "^3.0.2",
+    "node-mic": "^1.0.1",
+    "openai": "^4.16.1"
+  }
+}
